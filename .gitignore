@@ -4,3 +4,77 @@
 
 # LangGraph
 .langgraph_api/
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# ===============================
+# Streamlit
+# ===============================
+.streamlit/
+streamlit.env
+
+# Streamlit cache & media
+**/.streamlit/cache/
+*.db
+
+# ===============================
+# LangChain / LLM
+# ===============================
+# API keys & secrets
+.env
+.env.local
+.env.*.local
+
+# Vector stores / embeddings
+chroma/
+chromadb/
+faiss_index/
+*.faiss
+*.index
+
+# LLM cache
+.cache/
+langchain.db
+
+# ===============================
+# Jupyter / Experiments
+# ===============================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ===============================
+# Logs & temp files
+# ===============================
+logs/
+*.log
+tmp/
+temp/
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Build / Distribution
+# ===============================
+build/
+dist/
