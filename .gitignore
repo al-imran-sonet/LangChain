@@ -20,6 +20,7 @@ venv/
 .env/
 .venv/
 ENV/
+genai/
 
 # ===============================
 # Streamlit
