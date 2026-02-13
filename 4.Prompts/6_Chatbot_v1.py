@@ -1,5 +1,5 @@
 # This is a simple chatbot that has no memory of previous conversation 
-# For this reason ,If we talk something about thye previous query , it will not able to understand 
+# For this reason ,If we talk something about the previous query , it will not able to understand 
 
 
 from langchain_perplexity import ChatPerplexity

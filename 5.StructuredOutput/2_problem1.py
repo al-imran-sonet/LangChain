@@ -1,4 +1,4 @@
-# The task is we will get reviews , the code will take the review and take to the LLMs.
+# The task is we will get reviews, the code will take the review and take to the LLMs.
 # LLMs will create structured output . The dictionary will contain summary and sentiment.
 # we will use typedDict
 # now the question is how llms understand that we have to find summary and sentiment ?
